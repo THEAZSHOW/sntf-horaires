@@ -1,0 +1,11 @@
+
+import { TrainRun } from '../../types';
+
+export const elaffrounTheniaRuns: TrainRun[] = [
+    { trainNumber: 'B152/153', lineName: 'El Affroun - Thénia', lineNameAr: 'العفرون - الثنية', days: 'daily', stops: [
+        { stationName: 'El Affroun', time: '06:00' }, { stationName: 'Mouzaia', time: '06:04' }, { stationName: 'Chiffa', time: '06:08' }, { stationName: 'Blida', time: '06:14' }, { stationName: 'Beni Mered', time: '06:19' }, { stationName: 'Boufarik', time: '06:27' }, { stationName: 'Birtouta', time: '06:37' }, { stationName: 'Baba Ali', time: '06:44' }, { stationName: 'Ain Naadja', time: '06:47' }, { stationName: 'Gué de Constantine', time: '06:50' }, { stationName: 'Oued Smar', time: '07:00' }, { stationName: 'Bab Ezzouar', time: '07:03' }, { stationName: 'Dar El Beida', time: '07:06' }, { stationName: 'Rouiba', time: '07:12' }, { stationName: 'Rouiba Ind', time: '07:15' }, { stationName: 'Reghaia Ind', time: '07:16' }, { stationName: 'Reghaia', time: '07:18' }, { stationName: 'Boudouaou', time: '07:24' }, { stationName: 'Corso', time: '07:28' }, { stationName: 'Boumerdes', time: '07:32' }, { stationName: 'Tidjelabine', time: '07:36' }, { stationName: 'Thenia', time: '07:41' }
+    ]},
+    { trainNumber: 'B154/155', lineName: 'El Affroun - Thénia', lineNameAr: 'العفرون - الثنية', days: 'daily', stops: [
+        { stationName: 'El Affroun', time: '13:05' }, { stationName: 'Mouzaia', time: '13:09' }, { stationName: 'Chiffa', time: '13:13' }, { stationName: 'Blida', time: '13:19' }, { stationName: 'Beni Mered', time: '13:26' }, { stationName: 'Boufarik', time: '13:34' }, { stationName: 'Birtouta', time: '13:44' }, { stationName: 'Baba Ali', time: '13:48' }, { stationName: 'Ain Naadja', time: '13:51' }, { stationName: 'Gué de Constantine', time: '13:54' }, { stationName: 'Oued Smar', time: '14:04' }, { stationName: 'Bab Ezzouar', time: '14:07' }, { stationName: 'Dar El Beida', time: '14:10' }, { stationName: 'Rouiba', time: '14:16' }, { stationName: 'Rouiba Ind', time: '14:19' }, { stationName: 'Reghaia Ind', time: '14:20' }, { stationName: 'Reghaia', time: '14:22' }, { stationName: 'Boudouaou', time: '14:28' }, { stationName: 'Corso', time: '14:32' }, { stationName: 'Boumerdes', time: '14:36' }, { stationName: 'Tidjelabine', time: '14:40' }, { stationName: 'Thenia', time: '14:45' }
+    ]},
+];

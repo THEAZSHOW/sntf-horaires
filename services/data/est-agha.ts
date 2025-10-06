@@ -1,0 +1,29 @@
+
+import { TrainRun } from '../../types';
+
+export const estAghaRuns: TrainRun[] = [
+    // =======================================================================
+    // Ligne: Est -> Agha
+    // =======================================================================
+    { trainNumber: 'TA', lineName: 'Annaba - Agha', lineNameAr: 'عنابة - آغا', days: 'daily', stops: [
+        { stationName: 'Annaba', time: '19:20' }, { stationName: 'Azzaba', time: '20:16' }, { stationName: 'Ramdane Djamel', time: '20:41' }, { stationName: 'El Arrouche', time: '20:57' }, { stationName: 'Constantine', time: '21:54' }, { stationName: 'El Khroub', time: '22:18' }, { stationName: 'Teleghma', time: '22:54' }, { stationName: 'Tadjenanet', time: '23:25' }, { stationName: 'El Eulma', time: '23:47' }, { stationName: 'Setif', time: '00:15' }, { stationName: 'Bordj Bou Arreridj', time: '02:07' }, { stationName: 'Mansourah', time: '02:40' }, { stationName: 'Beni Mensour', time: '03:19' }, { stationName: 'Bouira', time: '04:09' }, { stationName: 'Thenia', time: '05:26' }, { stationName: 'El Harrach', time: '06:08' }, { stationName: 'Agha', time: '06:19' }
+    ]},
+    { trainNumber: 'B4', lineName: 'Constantine - Agha', lineNameAr: 'قسنطينة - آغا', days: 'daily', stops: [
+        { stationName: 'Constantine', time: '06:40' }, { stationName: 'El Khroub', time: '07:07' }, { stationName: 'Teleghma', time: '07:56' }, { stationName: 'Tadjenanet', time: '08:13' }, { stationName: 'Chelghoum Laïd', time: '08:24' }, { stationName: 'El Eulma', time: '08:42' }, { stationName: 'Setif', time: '09:08' }, { stationName: 'Bordj Bou Arreridj', time: '09:52' }, { stationName: 'Beni Mensour', time: '11:06' }, { stationName: 'Bouira', time: '11:53' }, { stationName: 'Thenia', time: '13:05' }, { stationName: 'El Adjiba', time: '13:12' }, { stationName: 'Boumerdes', time: '13:52' }, { stationName: 'Agha', time: '13:52' }
+    ]},
+    { trainNumber: '14', lineName: 'Bejaia - Agha', lineNameAr: 'بجاية - آغا', days: 'daily', stops: [
+        { stationName: 'Bejaia', time: '06:30' }, { stationName: 'Oued Ghir', time: '06:42' }, { stationName: 'El Kseur', time: '06:54' }, { stationName: 'Sidi Aich', time: '07:11' }, { stationName: 'Takrets', time: '07:25' }, { stationName: 'Ighzer Amokrane', time: '07:25' }, { stationName: 'Akbou', time: '07:35' }, { stationName: 'Allaghan', time: '07:48' }, { stationName: 'Beni Mensour', time: '08:03' }, { stationName: 'Hanif', time: '08:15' }, { stationName: 'El Adjiba', time: '08:25' }, { stationName: 'Bouira', time: '08:53' }, { stationName: 'Lakhdaria', time: '09:41' }, { stationName: 'Thenia', time: '10:02' }, { stationName: 'Boumerdes', time: '10:08' }, { stationName: 'Agha', time: '10:39' }
+    ]},
+    { trainNumber: 'B28/29/30', lineName: 'Touggourt - Agha', lineNameAr: 'تقرت - آغا', days: 'daily', stops: [
+        { stationName: 'Touggourt', time: '17:30' }, { stationName: 'Djamaa', time: '17:58' }, { stationName: 'El Meghaier', time: '18:25' }, { stationName: 'Biskra', time: '19:25' }, { stationName: 'El Ouatya', time: '20:00' }, { stationName: 'El Kantara', time: '20:29' }, { stationName: 'Ain Touta', time: '21:03' }, { stationName: 'Barika', time: '21:50' }, { stationName: 'Ouled Ammar', time: '22:12' }, { stationName: 'Barhoum', time: '22:34' }, { stationName: 'M\'sila', time: '23:12' }, { stationName: 'Bordj Bou Arreridj', time: '00:22' }, { stationName: 'Mansourah', time: '01:04' }, { stationName: 'Beni Mensour', time: '01:42' }, { stationName: 'Thenia', time: '03:57' }, { stationName: 'Boumerdes', time: '04:08' }, { stationName: 'Agha', time: '04:53' }
+    ]},
+    { trainNumber: 'B32/B30', lineName: 'Tebessa - Agha', lineNameAr: 'تبسة - آغا', days: 'daily', stops: [
+        { stationName: 'Tebessa', time: '17:30' }, { stationName: 'Morsott', time: '18:02' }, { stationName: 'Sidi Yahia', time: '18:18' }, { stationName: 'Ain Beida', time: '19:33' }, { stationName: 'Oum El Bouaghi', time: '20:07' }, { stationName: 'Ain Fakroun', time: '20:45' }, { stationName: 'Ain Mlila', time: '21:23' }, { stationName: 'El Gourzi', time: '21:25' }, { stationName: 'Teleghma', time: '22:18' }, { stationName: 'Tadjenanet', time: '22:49' }, { stationName: 'El Eulma', time: '23:11' }, { stationName: 'Setif', time: '23:39' }, { stationName: 'Bordj Bou Arreridj', time: '00:28' }, { stationName: 'Mansourah', time: '01:07' }, { stationName: 'Beni Mensour', time: '01:45' }, { stationName: 'Bouira', time: '02:37' }, { stationName: 'Thenia', time: '03:57' }, { stationName: 'Boumerdes', time: '04:08' }, { stationName: 'Agha', time: '04:51' }
+    ]},
+    { trainNumber: 'B6', lineName: 'Batna - Agha', lineNameAr: 'باتنة - آغا', days: 'daily', stops: [
+        { stationName: 'Batna', time: '22:50' }, { stationName: 'Ain Touta', time: '23:13' }, { stationName: 'Barika', time: '23:51' }, { stationName: 'Ouled Ammar', time: '00:09' }, { stationName: 'Barhoum', time: '00:28' }, { stationName: 'M\'sila', time: '01:00' }, { stationName: 'Bordj Bou Arreridj', time: '01:45' }, { stationName: 'Beni Mensour', time: '02:48' }, { stationName: 'Bouira', time: '03:28' }, { stationName: 'Boumerdes', time: '04:43' }, { stationName: 'Agha', time: '05:23' }
+    ]},
+    { trainNumber: '12', lineName: 'Bouira - Agha', lineNameAr: 'البويرة - آغا', days: 'daily', stops: [
+        { stationName: 'Bouira', time: '05:35' }, { stationName: 'Mizan', time: '06:04' }, { stationName: 'Kadiria', time: '06:17' }, { stationName: 'Ammal', time: '06:30' }, { stationName: 'Lakhdaria', time: '06:40' }, { stationName: 'Beni Amrane', time: '06:44' }, { stationName: 'Souk El Had', time: '06:57' }, { stationName: 'Thenia', time: '07:08' }, { stationName: 'Boumerdes', time: '07:24' }, { stationName: 'Rouiba', time: '07:24' }, { stationName: 'Dar El Beida', time: '07:30' }, { stationName: 'El Harrach', time: '07:38' }, { stationName: 'Agha', time: '07:48' }
+    ]},
+];

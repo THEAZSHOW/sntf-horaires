@@ -1,0 +1,29 @@
+{
+  "short_name": "SNTF Horaires",
+  "name": "SNTF Horaires - Horaires des Trains en Algérie",
+  "description": "Une application web élégante et rapide pour trouver les horaires des trains en Algérie. Recherchez votre voyage, consultez les heures de départ et d'arrivée, et enregistrez vos itinéraires favoris pour un accès rapide.",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "64x64 32x32 24x24 16x16"
+    },
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1E40AF",
+  "background_color": "#F9FAFB",
+  "scope": "/"
+}

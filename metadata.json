@@ -1,0 +1,5 @@
+{
+  "name": "SNTF Horaires",
+  "description": "Une application web élégante et rapide pour trouver les horaires des trains en Algérie. Recherchez votre voyage, consultez les heures de départ et d'arrivée, et enregistrez vos itinéraires favoris pour un accès rapide.",
+  "requestFramePermissions": []
+}
